@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Management</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Manage Your Profile</h2>
+        <form id="profileForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="paymentInfo">Payment Information:</label>
+            <input type="text" id="paymentInfo" name="paymentInfo" required>
+            
+            <button type="submit">Update Profile</button>
+        </form>
+        <div id="output"></div>
+        <div id="message"></div>
+    </div>
+    <script src="form_mgt.js"></script>
+</body>
+</html>
+
+
