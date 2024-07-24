@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Pickup and Delivery Task</title>
+    <link rel="stylesheet" href="task_style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create a Pickup and Delivery Task</h2>
+        <form id="taskForm">
+            <label for="pickupLocation">Pickup Location:</label>
+            <input type="text" id="pickupLocation" name="pickupLocation" required>
+            
+            <label for="pickupContactName">Pickup Contact Name:</label>
+            <input type="text" id="pickupContactName" name="pickupContactName" required>
+            
+            <label for="pickupContactPhone">Pickup Contact Phone:</label>
+            <input type="tel" id="pickupContactPhone" name="pickupContactPhone" required>
+            
+            <label for="deliveryLocation">Delivery Location:</label>
+            <input type="text" id="deliveryLocation" name="deliveryLocation" required>
+            
+            <label for="deliveryContactName">Delivery Contact Name:</label>
+            <input type="text" id="deliveryContactName" name="deliveryContactName" required>
+            
+            <label for="deliveryContactPhone">Delivery Contact Phone:</label>
+            <input type="tel" id="deliveryContactPhone" name="deliveryContactPhone" required>
+            
+            <button type="submit">Create Task</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
